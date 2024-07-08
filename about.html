@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/headers.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <script src="https://kit.fontawesome.com/062d0051ac.js" crossorigin="anonymous"></script>
+    <title>Cleaners closet | Home</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"><img src="info/logo2.jpg" /></div>
+      <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="sub">
+      <div class="about-image"></div>
+      <!-- <span class="quote">“</span> -->
+      <div class="title-desc">
+        <h1><span class="title">About</span> <span class="title-name">Us</span></h1>
+        <h2>Mission Statement</h2>
+        <p>
+          Our mission is to provide top-notch cleaning services that exceed our clients'
+          expectations through attention to detail, quality, and good customer service.
+        </p>
+      </div>
+    </div>
+    <main>
+      <div class="item"></div>
+    </main>
+    <footer>
+      <div class="footer-grid">
+        <p>Copyright &copy;<span id="year"></span>. Cleaners closet</p>
+        <ul>
+          <li><i class="fa-solid fa-location-dot"></i> 6607 Extension 5, Bela-Bela, 0480</li>
+          <li><i class="fa-solid fa-envelope"></i> konkojoseph849.gmail.com</li>
+          <li><i class="fa-solid fa-phone"></i> 067 563 1707</li>
+        </ul>
+        <p>Copyright 2020. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      document.querySelector("#year").innerHTML = new Date().getFullYear();
+    </script>
+  </body>
+</html>

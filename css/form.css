@@ -1,0 +1,30 @@
+.Personal-details {
+  width: 100%;
+}
+
+.Personal-details,
+.mail {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 60%;
+  background: rgb(255, 255, 255);
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  margin: 5%;
+  padding: 5%;
+}
+
+form button {
+  background: rgb(23, 150, 255);
+  color: rgb(241, 241, 241);
+  font-size: 22px;
+  margin-top: 5px;
+  border: 0px;
+}
+
+form input {
+  font-size: 22px;
+}

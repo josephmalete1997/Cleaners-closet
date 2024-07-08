@@ -1,0 +1,39 @@
+.sub {
+  height: auto;
+  background: linear-gradient(99deg, rgb(0, 140, 255), rgb(186, 224, 255), rgb(255, 255, 255));
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  position: relative;
+  z-index: 10;
+}
+
+.sub img {
+  max-width: 60%;
+  height: auto;
+  flex: 1;
+}
+
+.sub h1 {
+  font-size: 50px;
+  flex: 2;
+}
+
+main {
+  width: 80%;
+  padding: 0% 10%;
+  position: relative;
+  z-index: 10;
+  background: white;
+  margin-bottom: 250px;
+}
+
+.about-image,
+.home-image,
+.contact-image {
+  flex: 1;
+  background: red;
+  background-image: url(../images/a1.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+}

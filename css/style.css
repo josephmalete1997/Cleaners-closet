@@ -1,0 +1,271 @@
+body {
+  margin: 0px;
+  font-family: Poppins, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(90deg, rgb(71, 79, 196), rgb(71, 79, 196), rgb(71, 79, 196, 0));
+  height: 200px;
+  width: 100%;
+  position: relative;
+  overflow-y: hidden;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0);
+  display: flex;
+}
+
+.header .logo {
+  flex: 1;
+}
+
+.header .nav {
+  flex: 2;
+  margin-top: 100px;
+}
+
+.header .nav a {
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header .nav a:hover {
+  color: rgb(239, 255, 9);
+}
+
+.active {
+  border-bottom: 5px solid rgb(255, 189, 9);
+}
+
+.active:hover {
+}
+
+.item {
+  width: 95%;
+  margin: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.item p {
+  font-size: 24px;
+  text-align: left;
+  width: 100%;
+}
+
+.working-time {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+.working-hours {
+  display: flex;
+  width: 70%;
+  background: linear-gradient(90deg, rgb(60, 60, 155, 0), rgb(10, 205, 231), rgb(60, 60, 155, 0));
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  font-size: 20px;
+}
+
+.working-hours .days {
+  width: 20%;
+  margin: 2%;
+  color: white;
+  background: black;
+  padding: 0.1% 1%;
+  border-radius: 10px;
+}
+
+footer {
+  background: linear-gradient(
+    90deg,
+    rgb(0, 140, 255),
+    rgb(0, 140, 255, 0.2),
+    rgb(0, 140, 255, 0.5)
+  );
+  color: white;
+  height: 250px;
+  width: 90%;
+  padding: 0 5%;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer-img {
+  position: absolute;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+  list-style: none;
+  margin: 10px;
+}
+
+.footer-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+}
+
+/* description */
+.name {
+  color: rgb(71, 79, 196);
+}
+
+.name:hover {
+  color: rgb(248, 211, 0);
+}
+
+/* Features */
+
+.features {
+  width: 95%;
+  margin: 0 2.5%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.item-content {
+  width: 30%;
+  height: 250px;
+  position: relative;
+  margin: 1.5%;
+}
+
+.desc {
+  width: 95%;
+  background: linear-gradient(
+    90deg,
+    rgb(222, 236, 255, 0.5),
+    rgb(0, 110, 255),
+    rgb(0, 110, 255),
+    rgb(222, 236, 255, 0.5)
+  );
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  padding: 0% 2.5%;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.img1,
+.img2,
+.img3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url(../images/product.jpeg);
+}
+
+.img2 {
+  background-image: url(../images/staff.jpg);
+}
+
+.img3 {
+  background-image: url(../images/pricing.webp);
+}
+
+/* quote */
+main h1 {
+  margin-top: 5%;
+  margin-left: 3%;
+  font-size: 40px;
+}
+
+.title {
+  color: rgb(22, 97, 182);
+  margin-left: 0%;
+}
+
+.title-name {
+  color: rgb(255, 166, 0);
+}
+
+.title-desc {
+  padding: 5%;
+  margin: 0px;
+  flex: 1;
+}
+
+.title-desc p {
+  font-size: 20px;
+}
+
+.quote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: rgb(22, 97, 182);
+  padding: 10px 5px;
+  margin: 0px;
+  position: relative;
+  font-size: 66px;
+}
+
+@media screen and (max-width: 600px) and (min-width: 100px) {
+  .features {
+    flex-direction: column;
+  }
+
+  body {
+    background: white;
+    display: none;
+  }
+
+  .sub {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub img {
+    min-width: 100%;
+    height: auto;
+  }
+
+  .item-content {
+    width: 95%;
+    height: 250px;
+    position: relative;
+    margin: 1.5%;
+  }
+
+  .header {
+    flex-direction: column;
+    width: 100%;
+    overflow-y: visible;
+  }
+
+  .header .logo {
+    flex: 1;
+  }
+}
