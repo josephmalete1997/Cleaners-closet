@@ -32,8 +32,56 @@ main {
 .home-image,
 .contact-image {
   flex: 1;
-  background: red;
-  background-image: url(../images/a1.jpg);
-  background-size: 120%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+}
+.about-image {
+  background-image: url(../images/a1.jpg);
+}
+
+.home-image {
+  background-image: url(../images/home.jpg);
+}
+
+.contact-image {
+  background-image: url(../images/cell.jpg);
+}
+
+.member-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+}
+
+.member {
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member .name {
+  font-size: 24px;
+  color: black;
+  font-weight: 600;
+}
+
+.member .m1 {
+  background-image: url(../images/joseph1.jpg);
+}
+
+.member .m2 {
+  background-image: url(../images/Nomusa.jpg);
+}
+
+.member .m3 {
+  background-image: url(../images/Joseph2.jpg);
 }
