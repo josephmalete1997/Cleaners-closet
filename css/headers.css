@@ -58,6 +58,7 @@ main {
 
 .team {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
@@ -74,6 +75,10 @@ main {
   font-weight: 600;
 }
 
+.member .position {
+  color: rgb(0, 0, 0);
+}
+
 .member .m1 {
   background-image: url(../images/joseph1.jpg);
 }
@@ -84,4 +89,10 @@ main {
 
 .member .m3 {
   background-image: url(../images/Joseph2.jpg);
+}
+
+.member .m4 {
+  background-image: url(../images/Lucy.jpg);
+  background-position: center;
+  background-size: 80%;
 }

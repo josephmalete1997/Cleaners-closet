@@ -1,0 +1,65 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 2%;
+}
+
+.services-item {
+  width: 30%;
+  height: 200px;
+  background: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5%;
+}
+
+.services-item p {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px;
+  width: 96%;
+  padding: 2%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.s1 {
+  background-image: url(../images/house-cleaning.webp);
+}
+
+.s2 {
+  background-image: url(../images/deep-clean.jpg);
+}
+
+.s3 {
+  background-image: url(../images/move.jpeg);
+}
+
+.s4 {
+  background-image: url(../images/office.jpg);
+}
+
+.s5 {
+  background-image: url(../images/construction.jpg);
+}
+
+.s6 {
+  background-image: url(../images/Carpet.jpg);
+}
+
+.s7 {
+  background-image: url(../images/window.jpg);
+}

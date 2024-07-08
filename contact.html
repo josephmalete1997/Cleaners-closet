@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="header">
-      <div class="logo"><img src="info/logo2.jpg" /></div>
+      <div class="logo"></div>
       <div class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -27,13 +27,13 @@
       <div class="contact-image"></div>
       <!-- <span class="quote">“</span> -->
       <div class="title-desc">
-        <h1><span class="title">Get in touch with</span> Now</h1>
+        <h1><span class="title">Get in touch with</span> Us</h1>
         <!-- <form action="https://formsubmit.co/ca1d299b99a788d345d76d10b7fa7a1c" method="POST"> -->
         <form action="https://formsubmit.co/konkojoseph849@gmail.com" method="POST">
           <div class="Personal-details">
             <label for="name">Names</label>
-            <input type="text" id="name" name="Name" class="name" required />
-            <label for="email">Email</label>
+            <input type="text" id="name" class="name" required />
+            <label for="email">Email / Cellphone</label>
             <input type="text" id="email" name="Email" required />
           </div>
           <div class="mail">
@@ -42,11 +42,11 @@
             <label for="message">Message</label>
             <textarea id="message" class="message" name="message" required></textarea>
             <input type="hidden" name="_captcha" value="false" />
-            <input
+            <!-- <input
               type="hidden"
               name="_next"
               value="https://josephmalete1997.github.io/Portfolio/thankyou.html"
-            />
+            /> -->
             <button class="send-button" id="send">
               Send<span class="btn-load loader-3"> </span>
             </button>
@@ -62,15 +62,20 @@
     </main>
     <footer>
       <div class="footer-grid">
-        <p>Copyright &copy;<span id="year"></span>. Cleaners closet</p>
         <ul>
+          <h2>Enterprise information</h2>
+          <li><i>Registration</i>: <b>2024/338145/07</b></li>
+          <li>B-BBEE Level 1 Contributor</li>
+        </ul>
+        <ul>
+          <h2>Address</h2>
           <li><i class="fa-solid fa-location-dot"></i> 6607 Extension 5, Bela-Bela, 0480</li>
-          <li><i class="fa-solid fa-envelope"></i> konkojoseph849.gmail.com</li>
+          <li><i class="fa-solid fa-envelope"></i> konkojoseph849@gmail.com</li>
           <li><i class="fa-solid fa-phone"></i> 067 563 1707</li>
         </ul>
-        <p>Copyright 2020. All rights reserved.</p>
       </div>
     </footer>
+    <div class="footer-background"></div>
     <script>
       document.querySelector("#year").innerHTML = new Date().getFullYear();
     </script>
